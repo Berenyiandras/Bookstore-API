@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bookstore-API</name>
+    </assembly>
+    <members>
+        <member name="M:Bookstore_API.Controllers.homeController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
