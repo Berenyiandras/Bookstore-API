@@ -4,6 +4,11 @@
         <name>Bookstore-API</name>
     </assembly>
     <members>
+        <member name="T:Bookstore_API.Controllers.AuthorsController">
+            <summary>
+            Endoint used to intereact with the authors in the book store database 
+            </summary>
+        </member>
         <member name="M:Bookstore_API.Controllers.homeController.Get">
             <summary>
             

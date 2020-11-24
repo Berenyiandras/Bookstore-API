@@ -16,6 +16,8 @@ using System.Reflection;
 using System.IO;
 using Bookstore_API.Contracts;
 using Bookstore_API.Services;
+using AutoMapper;
+using Bookstore_API.Mappings;
 
 namespace Bookstore_API
 {
@@ -54,7 +56,9 @@ namespace Bookstore_API
                 c.IncludeXmlComments(xpath);
             });
 
+            services.AddAutoMapper(typeof(Maps));
             services.AddSingleton<ILoggerService, LoggerService>();
+            services.AddScoped<IAuthorRepository, AuthorRepository>();
             services.AddControllers();
         }
 
